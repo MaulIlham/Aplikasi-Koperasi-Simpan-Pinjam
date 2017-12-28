@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SimpanPinjam</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_anggota">Data Anggota</string>
+    <string-array name="list">
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+    <string name="title_activity_simpanan">Simpanan</string>
+    <string name="title_activity_peminjaman">Peminjaman</string>
+</resources>

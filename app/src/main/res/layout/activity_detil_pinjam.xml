@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.schiffers.simpanpinjam.DetilPinjam">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtpinjam4"
+        android:text="Nama"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt1"
+        android:text="Jumlah Pinjaman"
+        android:textSize="16dp"
+        android:layout_below="@+id/txtpinjam4"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt2"
+        android:textSize="16dp"
+        android:layout_below="@+id/txt1"
+        android:text="Bunga (%)"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Angsuran"
+        android:id="@+id/txt3"
+        android:layout_below="@+id/txt2"
+        android:layout_marginTop="15dp"
+        android:textSize="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terbayar"
+        android:id="@+id/txt4"
+        android:textSize="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/txt3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal"
+        android:layout_below="@+id/txt4"
+        android:layout_marginTop="15dp"
+        android:textSize="16dp"
+        android:id="@+id/txt5"  />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:id="@+id/txt6"
+        android:layout_below="@+id/txt5"
+        android:layout_marginTop="15dp"
+        android:textSize="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="---------"
+        android:id="@+id/txtpinjam5"
+        android:textSize="16dp"
+        android:layout_above="@+id/txt2"
+        android:layout_toRightOf="@+id/txtpinjam4"
+        android:layout_toEndOf="@+id/txtpinjam4" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="---------"
+        android:id="@+id/txtpinjam6"
+        android:textSize="16dp"
+        android:layout_above="@+id/txt3"
+        android:layout_alignLeft="@+id/txtpinjam5"
+        android:layout_alignStart="@+id/txtpinjam5" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="---------"
+        android:id="@+id/txtpinjam7"
+        android:textSize="16dp"
+        android:layout_above="@+id/txt4"
+        android:layout_toRightOf="@+id/txtpinjam4"
+        android:layout_toEndOf="@+id/txtpinjam4" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="---------"
+        android:id="@+id/txtpinjam8"
+        android:textSize="16dp"
+        android:layout_above="@+id/txt5"
+        android:layout_toRightOf="@+id/txtpinjam4"
+        android:layout_toEndOf="@+id/txtpinjam4" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="---------"
+        android:id="@+id/txtpinjam9"
+        android:textSize="16dp"
+        android:layout_above="@+id/txt6"
+        android:layout_alignLeft="@+id/txtpinjam8"
+        android:layout_alignStart="@+id/txtpinjam8" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="---------"
+        android:id="@+id/txtpinjam10"
+        android:textSize="16dp"
+        android:layout_alignTop="@+id/txt6"
+        android:layout_alignLeft="@+id/txtpinjam9"
+        android:layout_alignStart="@+id/txtpinjam9" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bayar"
+        android:id="@+id/btnpbayar"
+        android:layout_below="@+id/txtpinjam10"
+        android:layout_alignLeft="@+id/txtpinjam4"
+        android:layout_alignStart="@+id/txtpinjam4"
+        android:layout_marginTop="43dp" />
+</RelativeLayout>

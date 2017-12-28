@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/spinnerpinjaman"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-Tanggal-"
+        android:id="@+id/txttglpinjam"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/spinnerpinjaman"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:scaleType="fitXY"
+        android:layout_height="50dp"
+        android:id="@+id/imgtanggal3"
+        android:src="@android:drawable/ic_menu_my_calendar"
+        android:layout_marginTop="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/txttglpinjam"
+        android:layout_toEndOf="@+id/txttglpinjam"
+        android:layout_marginLeft="102dp"
+        android:layout_marginStart="102dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtpinjaman1"
+        android:layout_below="@+id/txttglpinjam"
+        android:layout_marginTop="10dp"
+        android:hint="Jumlah Pinjaman"
+        android:inputType="number"
+        android:layout_marginLeft="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtpinjaman2"
+        android:inputType="number"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/edtpinjaman1"
+        android:layout_marginLeft="15dp"
+        android:hint="Bunga (%)"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtpinjaman3"
+        android:inputType="number"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/edtpinjaman2"
+        android:layout_marginLeft="15dp"
+        android:hint="Angsuran"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtpinjaman4"
+        android:layout_marginTop="5dp"
+        android:editable="false"
+        android:layout_below="@+id/edtpinjaman3"
+        android:layout_marginLeft="15dp"
+        android:hint="Jumlah Angsuran"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtpinjaman5"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/edtpinjaman4"
+        android:layout_marginLeft="15dp"
+        android:hint="Total"
+        android:editable="false"/>
+
+</RelativeLayout>

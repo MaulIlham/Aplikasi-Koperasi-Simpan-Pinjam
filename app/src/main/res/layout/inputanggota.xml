@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Nama"
+        android:ems="10"
+        android:id="@+id/edtanggota1"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin"
+        android:layout_below="@+id/edtanggota1"
+        android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/txtanggota4" />
+    <Spinner
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinneranggota"
+        android:layout_above="@+id/txtanggota5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Lahir"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/txtanggota4"
+        android:layout_marginTop="25dp"
+        android:textSize="17dp"
+        android:id="@+id/txtanggota5" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/edtanggota2"
+        android:hint="Email"
+        android:layout_below="@+id/edtanggota3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtanggota3"
+        android:hint="Nomor Telepon"
+        android:layout_below="@+id/txtanggota5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:hint="Alamat"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/edtanggota2"
+        android:id="@+id/edtanggota4"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:scaleType="fitXY"
+        android:layout_height="50dp"
+        android:id="@+id/imgtanggal"
+        android:src="@android:drawable/ic_menu_my_calendar"
+        android:layout_alignBottom="@+id/txtanggota5"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnersimpanan" />
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Jumlah Simpanan"
+       android:inputType="number"
+       android:layout_below="@+id/spinnersimpanan"
+       android:layout_marginTop="10dp"
+       android:id="@+id/edtsimpanan1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Simpanan"
+        android:id="@+id/txttglsimpanan"
+        android:layout_below="@+id/edtsimpanan1"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:scaleType="fitXY"
+        android:layout_height="50dp"
+        android:id="@+id/imgtanggal2"
+        android:src="@android:drawable/ic_menu_my_calendar"
+        android:layout_below="@+id/edtsimpanan1"
+        android:layout_toRightOf="@+id/txttglsimpanan"
+        android:layout_toEndOf="@+id/txttglsimpanan"
+        android:layout_marginLeft="53dp"
+        android:layout_marginStart="53dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Keterangan"
+        android:id="@+id/edtsimpanan2"
+        android:layout_below="@+id/txttglsimpanan"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>
